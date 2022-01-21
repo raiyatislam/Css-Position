@@ -1,0 +1,72 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 700px;
+	height: 400px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 250px;
+	height: 250px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 18%;
+	left: 25%;
+}
+.yellow{
+	width: 250px;
+	height: 250px;
+	background: yellow;
+	position: fixed;
+	top: 0%;
+	right: 0%;
+}
+.fb{
+	width: 180px;
+	position: fixed;
+	top: 36%;
+	right: -130px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.twt{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right: -126px;
+	transition: 1s;
+}
+.twt:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.lnk{
+	width: 180px;
+	position: fixed;
+	top: 62%;
+	right: -127px;
+	transition: 1s;
+}
+.lnk:hover{
+	right: -2px;
+	cursor: pointer;
+}
